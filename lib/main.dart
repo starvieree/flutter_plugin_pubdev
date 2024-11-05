@@ -7,17 +7,17 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   final cameras = await availableCameras();
 
-  // Kamera depan
-  final firstCamera = cameras.first;
-
   // Kamera belakang
-  // final secondCamera = cameras.last;
+  // final firstCamera = cameras.first;
+
+  // Kamera depan
+  final secondCamera = cameras.last;
 
   runApp(
     MaterialApp(
       theme: ThemeData.dark(),
       home: TakepictureScreen(
-        camera: firstCamera
+        camera: secondCamera
       ),
     )
   );
