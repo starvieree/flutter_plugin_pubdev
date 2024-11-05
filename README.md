@@ -1,5 +1,5 @@
 # Setup Kamera
-
+![alt text](IMG-20241104-WA0002.jpg)
 
 # void async
 Dalam Dart, void async merupakan kombinasi antara tipe pengembalian (void) dan kata kunci async. Kata kunci async digunakan untuk menandai bahwa fungsi tersebut bersifat asinkron, artinya fungsi tersebut dapat melakukan operasi yang memakan waktu tanpa memblokir alur program utama.
